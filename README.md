@@ -67,6 +67,7 @@ https://github.com/2dust/v2rayNG)
 1. https://github.com/teddysun - BBR autoscript
 2. Team Rezoth - Contributor
 3. @Savinda1 - for the awesome readme file 😎
+4. iamtrazy for forking
 
 
 ☆ https://t.me/rezoth_tm ☆
