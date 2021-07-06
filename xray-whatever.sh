@@ -205,7 +205,8 @@ cat << EOF > /usr/local/etc/xray/config.json
               "headers": {
                 "Host": [
                   "c.whatsapp.net",
-                  "m.facebook.com"
+                  "m.facebook.com",
+				  "zoom.us"
                 ],
                 "User-Agent": [
                   "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36",
