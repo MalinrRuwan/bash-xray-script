@@ -238,7 +238,7 @@ EOF
 #accuring a ssl certificate (self-sigend openssl)
 
 openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 \
-    -subj "/C=US/ST=Denial/L=Springfield/O=Dis/CN=www.example.com" \
+    -subj "/C=US/ST=Denial/L=Springfield/O=Dis/CN=zoom.us" \
     -keyout xray.key  -out xray.crt
 mkdir /etc/xray
 cp xray.key /etc/xray/xray.key
