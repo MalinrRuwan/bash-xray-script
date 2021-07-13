@@ -11,6 +11,12 @@ rm -rf /etc/localtime
 cp /usr/share/zoneinfo/Asia/Colombo /etc/localtime
 date -R
 
+#install nload
+echo
+apt update && upgrade
+apt install -y nload
+
+
 #disable ubuntu firewall
 ufw disable
 
