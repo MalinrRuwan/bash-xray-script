@@ -13,7 +13,7 @@ date -R
 
 #install nload
 echo
-apt update && upgrade
+apt update && apt upgrade -y
 apt install -y nload
 
 
