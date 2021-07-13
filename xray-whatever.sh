@@ -12,7 +12,6 @@ cp /usr/share/zoneinfo/Asia/Colombo /etc/localtime
 date -R
 
 #install nload
-echo
 apt update && apt upgrade -y
 apt install -y nload
 
