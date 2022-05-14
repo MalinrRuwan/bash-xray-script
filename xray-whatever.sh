@@ -61,11 +61,11 @@ cat << EOF > /usr/local/etc/xray/config.json
     {
       "port": 2001,
       "listen": "127.0.0.1",
-      "protocol": "vless",
+      "protocol": "traojan",
       "settings": {
         "clients": [
           {
-            "id": "$UUID"
+            "password": "$UUID"
           }
         ],
         "decryption": "none"
